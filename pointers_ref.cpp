@@ -26,3 +26,14 @@ int intPointer = &alpha; //the variable inPointer receives the address of alpha
 
 //To alocate memory dynamicaly:
 intPointer = int new; //intPointer points to a new memory space for a int variable
+
+//To obtain the content which is located in the address pointed by intPointer:
+int anotherInt;
+anotherInt = *intPointer; //anotherInt receives the value of the variable which is ponted
+//by intPointer
+
+//To alter the content located in the address pointed by intPointer:
+*intPointer = 25;
+
+//To avoid memory leak, use delete:
+delete intPointer;
