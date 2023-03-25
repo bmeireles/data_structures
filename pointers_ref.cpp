@@ -10,3 +10,19 @@
 //We can create complex structures if we know the address of a variable (linked lists)
 //Working directly with memory enables the programmer to create more efficient code!
 
+//Declaring a pointer:
+//(type) *(name_pointer)
+//type refers to what type of data the pointer is pointing to.
+int *intPointer;
+
+//Memory alocation: static or dynamic
+//Static: in compilation time, when generating the executable
+//Dynamic: while the program is being executed.
+
+//Initializing the pointer
+int alpha;
+int intPointer = &alpha; //the variable inPointer receives the address of alpha
+//Now the pointer *intPointer points to alpha
+
+//To alocate memory dynamicaly:
+intPointer = int new; //intPointer points to a new memory space for a int variable
