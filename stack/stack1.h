@@ -1,3 +1,6 @@
+#ifndef STACK1_H
+#define STACK1_H
+
 //Pilha encadeada
 
 typedef char ItemType;
